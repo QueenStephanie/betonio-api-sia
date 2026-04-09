@@ -1,0 +1,80 @@
+.table-shell {
+  overflow-x: auto;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  background: var(--surface-panel);
+  box-shadow: var(--shadow-soft);
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+.users-table th,
+.users-table td {
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: left;
+  padding: 12px 14px;
+  color: var(--text-primary);
+  font-size: 0.94rem;
+}
+
+.users-table th {
+  background: var(--surface-muted);
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.users-table tr:nth-child(even) td {
+  background: color-mix(
+    in srgb,
+    var(--surface-panel) 74%,
+    var(--surface-muted)
+  );
+}
+
+.users-table tr:hover td {
+  background: color-mix(in srgb, var(--accent-soft) 50%, var(--surface-panel));
+}
+
+.cell-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.source-pill,
+.missing-pill {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.72rem;
+  line-height: 1;
+  border-radius: 999px;
+  padding: 0.22rem 0.5rem;
+}
+
+.source-pill {
+  background: color-mix(in srgb, var(--accent-soft) 78%, var(--surface-panel));
+  color: var(--accent-strong);
+}
+
+.missing-pill {
+  background: var(--status-error-bg);
+  color: var(--status-error-fg);
+}
+
+.empty-table-message {
+  text-align: center !important;
+  padding: 1.25rem !important;
+  color: var(--text-secondary) !important;
+  font-style: italic;
+}
+
+@media (max-width: 900px) {
+  .users-table {
+    min-width: 680px;
+  }
+}
