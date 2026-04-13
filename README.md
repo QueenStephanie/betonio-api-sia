@@ -31,7 +31,7 @@ npm run build
 
 This repository is configured to deploy automatically with GitHub Actions.
 
-1. Push to `main`.
+1. Push to `main` or `master`.
 2. In GitHub, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
 3. Wait for the **Deploy React app to GitHub Pages** workflow to finish.
 
