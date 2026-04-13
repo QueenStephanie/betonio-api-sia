@@ -27,6 +27,18 @@ npm run lint
 npm run build
 ```
 
+## Publish to GitHub Pages
+
+This repository is configured to deploy automatically with GitHub Actions.
+
+1. Push to `main`.
+2. In GitHub, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+3. Wait for the **Deploy React app to GitHub Pages** workflow to finish.
+
+Published site URL format:
+
+`https://<github-username>.github.io/<repository-name>/`
+
 ## Submission Repository URL
 
 Canonical repository URL:
