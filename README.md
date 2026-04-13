@@ -40,7 +40,4 @@ Published site URL format:
 `https://<github-username>.github.io/<repository-name>/`
 
 ## Submission Repository URL
-
-Canonical repository URL:
-
-https://github.com/MikeSordilla-lab/betonio-api-demo
+https://queenstephanie.github.io/betonio-api-sia/
