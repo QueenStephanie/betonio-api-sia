@@ -37,7 +37,7 @@ This repository is configured to deploy automatically with GitHub Actions.
 
 Published site URL format:
 
-`https://<github-username>.github.io/betonio-api-sia/`
+`https://<github-username>.github.io/<repository-name>/`
 
 ## Submission Repository URL
 
